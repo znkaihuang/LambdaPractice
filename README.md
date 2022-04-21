@@ -1,3 +1,3 @@
 # lambda-practice
 
-Provide some pratical templates for Java Lambda.
+Provide some exercises for Java Lambda related topic.
