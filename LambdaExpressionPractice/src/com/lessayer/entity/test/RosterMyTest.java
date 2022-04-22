@@ -34,12 +34,13 @@ public class RosterMyTest {
 		Verifier.verifyGenderIsMale(/* Enter your lambda expression here */);
 		Verifier.verifyEmailIsAtTestDotCom(/* Enter your lambda expression here */);
 		Verifier.verifyMaleLessThan30(/* Enter your lambda expression here */);
+		
 	}
 	
 }
 
 interface PersonCheckInterface {
-	boolean check(Person person);
+	public boolean check(Person person);
 }
 
 class PersonFilter {
