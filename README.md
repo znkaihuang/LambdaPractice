@@ -1,3 +1,3 @@
-# lambda-practice
+# stream-practice
 
-Provide some exercises for Java Lambda related topic.
+Provide some exercises for Java Stream API.
