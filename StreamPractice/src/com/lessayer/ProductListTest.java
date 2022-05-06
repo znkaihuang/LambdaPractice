@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import com.lessayer.entity.Product;
 import com.lessayer.entity.ProductType;
@@ -18,7 +19,7 @@ public class ProductListTest {
 
 		
 		// Create a French food list containing only product name.
-
+		
 		
 		// Calculate the total price of all beverage.
 
@@ -40,7 +41,7 @@ public class ProductListTest {
 		
 		// Generate a map containing only name and price of each product.
 
-		
+
 	}
 	
 	static class Answer {
@@ -51,8 +52,7 @@ public class ProductListTest {
 				new Product(15, "Lettuce", ProductType.Vegetable, 1.5, "France"), new Product(16, "Carrot", ProductType.Vegetable, 0.8, "France")
 				);
 		
-		public static List<String> answer2 = Arrays.asList("Toast", "Croissant", "Green Tea", "Black Tea", "Soy Bean Milk", "Cheese"
-				, "Goat Milk", "Apple", "Orange", "Cherry", "Pork", "Chicken", "Tomato", "Cabbage", "Lettuce", "Carrot");
+		public static List<String> answer2 = Arrays.asList("Toast", "Croissant", "Soy Bean Milk", "Cheese", "Apple", "Chicken", "Lettuce", "Carrot");
 		
 		public static Double answer3 = 22.4;
 		
