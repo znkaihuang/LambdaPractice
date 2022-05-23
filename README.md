@@ -1,3 +1,3 @@
-# lambda-practice
+# Java 8 practice
 
-Provide some exercises for Java Lambda related topic.
+Provide some exercises for Java 8 new introduced features.
