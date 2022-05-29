@@ -14,7 +14,10 @@ public class LocalePractice {
 	public static void main(String... args) {
 		Map<String, String> languageTagsMap = createLanguageTagMap();
 		List<Locale> localeList = createLocaleList(languageTagsMap.values());
-		List<LanguageRange> priorityList = LanguageRange.parse("jp, zh-tw;q=0.65, en;q=0.5, en-US;q=0.5, fr;q=0.4, fr-ca;q=0.4, es;q=0.2, it;q=0.1");
+		
+		// Design your matching rule. It should follow the order jp, zh-tw, en, en-US, fr, fr-ca, es, it.
+		// Notice that you should give each language a weight.
+		List<LanguageRange> priorityList = LanguageRange.parse("");
 		
 		System.out.println(selectClosetLocale("jp", priorityList, localeList));
 		System.out.println(selectClosetLocale("de", priorityList, localeList));
