@@ -47,21 +47,21 @@ public class ParallelArraySortPractice {
 		}
 		
 		System.out.print("Array Size                    : ");
-		for (Integer arrayNum = 10; arrayNum < arrayMaxSize; arrayNum*=10) {
+		for (Integer arrayNum = 10; arrayNum <= arrayMaxSize; arrayNum*=10) {
 			System.out.print(arrayNum + " ");
 		}
 		System.out.println();
 		
 		System.out.print("Average Sort Time(ns)         : ");
 		Integer index = 0;
-		for (Integer arrayNum = 10; arrayNum < arrayMaxSize; arrayNum*=10) {
+		for (Integer arrayNum = 10; arrayNum <= arrayMaxSize; arrayNum*=10) {
 			System.out.print(avgSortDuration.get(index++) + " ");
 		}
 		System.out.println();
 		
 		System.out.print("Average Parallel Sort Time(ns): ");
 		index = 0;
-		for (Integer arrayNum = 10; arrayNum < arrayMaxSize; arrayNum*=10) {
+		for (Integer arrayNum = 10; arrayNum <= arrayMaxSize; arrayNum*=10) {
 			System.out.print(avgParallelSortDuration.get(index++) + " ");
 		}
 		System.out.println();
