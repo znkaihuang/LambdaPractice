@@ -21,7 +21,7 @@ public class ParallelArraySortPractice {
 		Integer arrayMaxSize = 1000000;
 		Integer maxEpoch = 1000;
 		
-		for (Integer arrayNum = 10; arrayNum < arrayMaxSize; arrayNum*=10) {
+		for (Integer arrayNum = 10; arrayNum <= arrayMaxSize; arrayNum*=10) {
 			List<Duration> sortDuration = new ArrayList<>();
 			List<Duration> parallelSortDuration = new ArrayList<>();
 			for (Integer epoch = 0; epoch < maxEpoch; epoch++) {
