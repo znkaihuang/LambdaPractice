@@ -1,3 +1,2 @@
-# lambda-practice
+# base64-encode-decode-practice
 
-Provide some exercises for Java Lambda related topic.
